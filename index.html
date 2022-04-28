@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Static Template</title>
+
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./alt-logo.png"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/935b5672af.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="header">
+			<nav id="nav-bar">
+				<picture>
+					<source media="(max-width: 630px)" srcset="./alt-logo.png">
+					<img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Chris standing up holding his daughter Elva">
+				</picture>
+				
+			<ul class="ul-hf">
+				<li><a class="nav-link" href="#features">Features</a></li>
+				<li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+				<li><a class="nav-link" href="#pricing">Pricing</a></li>
+			</ul>
+			</nav>
+		</header>
+		<div id="suscribe">
+			<h2 id="first-title">Handcrafted, home-made masterpieces</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input
+					name="email"
+					id="email"
+					type="email"
+					placeholder="Enter your email address"
+					required
+				/>
+				<input id="submit" type="submit" value="Suscribe" class="btn"/>
+			</form>
+		</div>
+		<div class="container">
+			<section id="features">
+				<div class="grid">
+					<div class="icon"><i class="fa-solid fa-3x fa-award"></i></div>
+					<div id="feature">
+					<h2>Premium Materials</h2>
+          <p>Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="icon"><i class="fa-solid fa-3x fa-truck-fast"></i></div>
+					<div id="feature">
+					<h2>Fast Shipping</h2>
+          <p>We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="icon"><i class="fa-solid fa-3x fa-circle-check" aria-hidden="true"></i></i></div>
+					<div id="feature">
+					<h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+					</div>
+				</div>
+			</section>
+			<section id="how-it-works">
+					<iframe id="video" allowfullscreen src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" ></iframe> 
+			</section>
+			<section id="pricing">
+				<div class="product" id="tenor">
+					<div class="product-header"> Tenor Trombone</div>
+					<h2 class="price">$600</h2>
+					<hr>
+					<ul>
+							<li class="price-li">Lorem ipsum.</li>
+							<li class="price-li">Lorem ipsum.</li>
+							<li class="price-li">Lorem ipsum dolor.</li>
+							<li class="price-li">Lorem ipsum.</li>
+					</ul>
+					<button class="btn">Select</button>
+				</div>
+				<div class="product" id="bass">
+					<div class="product-header"> Bass Trombone</div>
+					<h2 class="price">$900</h2>
+					<hr>
+					<ul>
+							<li class="price-li">Lorem ipsum.</li>
+							<li class="price-li">Lorem ipsum.</li>
+							<li class="price-li">Lorem ipsum dolor.</li>
+							<li class="price-li">Lorem ipsum.</li>
+					</ul>
+					<button class="btn">Select</button>
+				</div>
+				<div class="product" id="valve">
+					<div class="product-header"> Valve Trombone</div>
+					<h2 class="price">$1200</h2>
+					<hr>
+					<ul>
+							<li class="price-li">Plays similar to a Trumpet</li>
+							<li class="price-li">Great for Jazz Bands</li>
+							<li class="price-li">Lorem ipsum dolor.</li>
+							<li class="price-li">Lorem ipsum.</li>
+					</ul>
+					<button class="btn">Select</button>
+				</div>
+			</section>
+		</div>
+	<footer>
+    <div id="disclaimer">
+				<p id="disclaimer">This website is based on the <a href="https://www.freecodecamp.org/learn/responsive-web-design/">FreeCodeCamp Responsive Web Design Course</a> and was made for learning purposes only.</p>
+    </div>
+	  <div id="footer-right">                                                                                             <div class="footer-buttons">
+		<ul class="ul-hf">	
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		</div>                
+		<span id="copyright">Copyright 2022, Original Trombones<sup>TM</sup></span>
+     </div>
+	</body>
+</html>
